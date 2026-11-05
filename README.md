@@ -47,7 +47,7 @@ https://bizpocket-r025lz.v2.appdeploy.ai/
 ## 📸 Application Screenshots
 
 ### Dashboard
-![BizPocket Dashboard](dashboard.png)
+![BizPocket Dashboard](Screenshot_20261105-211835.jpg)
 
 ### Sales Management
 ![BizPocket Sales](sales.png)
