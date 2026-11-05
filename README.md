@@ -52,5 +52,5 @@ https://bizpocket-r025lz.v2.appdeploy.ai/
 ### Quick Action
 ![BizPocket Sales](Screenshot_20261105-211840.jpg)
 
-### Inventory Management
-![BizPocket Inventory](inventory.png)
+### Invoices 
+![BizPocket Inventory](Screenshot_20261105-211901.jpg)
