@@ -54,3 +54,5 @@ https://bizpocket-r025lz.v2.appdeploy.ai/
 
 ### Invoices 
 ![BizPocket Inventory](Screenshot_20261105-211901.jpg)
+### Business Performance 
+![BizPocket Sales](Screenshot_20261105-211908.jpg)
