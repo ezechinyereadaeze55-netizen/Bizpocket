@@ -1,0 +1,94 @@
+[
+  {
+    "name": "Sign in and create a business workspace",
+    "sanity": true,
+    "viewport": "desktop",
+    "covers": [
+      "authentication restoration",
+      "business creation",
+      "private business workspace"
+    ],
+    "description": "Verifies a signed-in owner can create a private workspace and see it on the dashboard.",
+    "steps": [
+      "Sign in with an available provider",
+      "Enter business name 'Sunday Market'",
+      "Choose Retail & General Shop and NGN currency",
+      "Create the workspace"
+    ],
+    "expected": "The dashboard opens for Sunday Market and displays its business details."
+  },
+  {
+    "name": "Edit and delete business records",
+    "viewport": "desktop",
+    "covers": [
+      "sales create",
+      "record editing",
+      "record deletion confirmation",
+      "database persistence",
+      "dashboard totals refresh"
+    ],
+    "description": "Verifies a business owner can update a sale, see the revised amount, and delete a record with confirmation.",
+    "steps": [
+      "Open Sales and record 'Weekend orders' for 12500",
+      "Edit it to 'Weekend market orders' and change the amount to 15000",
+      "Refresh and confirm the edited record remains",
+      "Delete the edited sale and confirm the action"
+    ],
+    "expected": "The revised name and amount persist after refresh, and the sale disappears after confirmed deletion."
+  },
+  {
+    "name": "Create, mark paid and print an invoice receipt",
+    "viewport": "desktop",
+    "covers": [
+      "invoice creation",
+      "invoice number and due date",
+      "invoice status update",
+      "printable receipt"
+    ],
+    "description": "Verifies an owner can create a customer invoice, mark it paid and open a printable receipt.",
+    "steps": [
+      "Open Invoices and create an invoice for Ada Customer with one item",
+      "Confirm the invoice appears with an invoice number and due date",
+      "Mark the invoice as Paid",
+      "Choose Print receipt"
+    ],
+    "expected": "The invoice remains in the list as Paid and a formatted receipt print view opens."
+  },
+  {
+    "name": "Review date-filtered business performance",
+    "viewport": "desktop",
+    "covers": [
+      "date-filtered sales report",
+      "date-filtered expense report",
+      "net operating result"
+    ],
+    "description": "Verifies the Reports page filters sales and expenses by the selected date range and calculates the net result.",
+    "steps": [
+      "Open Reports",
+      "Choose a date range that includes existing sales and expenses",
+      "Review sales, expenses and net result totals"
+    ],
+    "expected": "The report displays totals calculated from records within the selected date range."
+  },
+  {
+    "name": "Track customer balances and manage records on mobile",
+    "viewport": "mobile",
+    "covers": [
+      "customer creation with opening balance",
+      "outstanding balance display",
+      "payment validation",
+      "payment recording",
+      "inventory create and edit",
+      "expense create",
+      "mobile navigation"
+    ],
+    "description": "Verifies mobile users can manage customer balances, inventory and expenses.",
+    "steps": [
+      "Open Customers and add Ada Customer with an outstanding balance of 10000",
+      "Record a payment of 3000 and confirm 7000 remains",
+      "Open Inventory and add Classic Shirt at 8000 with quantity 4",
+      "Edit its quantity to 3, then add Packaging expense for 2500"
+    ],
+    "expected": "The customer balance, edited stock and new expense are saved and visible after refresh."
+  }
+]

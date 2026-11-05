@@ -1,0 +1,14 @@
+{
+  "methods": ["google", "apple", "x", "email"],
+  "headline": "Welcome to BizPocket",
+  "subtitle": "A calmer, clearer way to run your business.",
+  "style": {
+    "mode": "light",
+    "accentColor": "#b89558",
+    "backgroundColor": "#fbfaf8",
+    "panelColor": "#ffffff",
+    "textColor": "#24231f",
+    "fontFamily": "DM Sans, system-ui, sans-serif",
+    "borderRadius": 10
+  }
+}
