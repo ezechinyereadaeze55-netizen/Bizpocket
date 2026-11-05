@@ -44,3 +44,13 @@ Created by Ezechinyere Adaeze Deborah.
 Live Application
 
 https://bizpocket-r025lz.v2.appdeploy.ai/
+## 📸 Application Screenshots
+
+### Dashboard
+![BizPocket Dashboard](dashboard.png)
+
+### Sales Management
+![BizPocket Sales](sales.png)
+
+### Inventory Management
+![BizPocket Inventory](inventory.png)
