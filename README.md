@@ -56,3 +56,11 @@ https://bizpocket-r025lz.v2.appdeploy.ai/
 ![BizPocket Inventory](Screenshot_20261105-211901.jpg)
 ### Business Performance 
 ![BizPocket Sales](Screenshot_20261105-211908.jpg)
+## Project Documentation
+
+- [Project Overview](PROJECT_OVERVIEW.md)
+- [Development Roadmap](ROADMAP.md)
+
+## Live Demo
+
+[Open BizPocket](https://bizpocket-r025lz.v2.appdeploy.ai/)
